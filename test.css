@@ -1,0 +1,276 @@
+* {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tahoma;
+    text-decoration: none;
+}
+
+header > div:nth-child(1) {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 40px;
+    background-color: deeppink;
+}
+
+header div:first-child p {
+    color: white;
+    margin-top: 10px;
+}
+
+header div:nth-child(2) {
+    background-color: purple;
+    color: wheat;
+}
+
+header div:nth-child(2) p {
+    margin-right: 10%;
+}
+
+.search-buy {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    width: 500px;
+    height: 100px;
+    margin-right: 9%;
+    margin-top: 50px;
+}
+
+.search-buy > div:first-child {
+    width: 140px;
+    height: 40px;
+    background-color: orange;
+    white-space: nowrap;
+    margin-top: 30px;
+}
+
+.search-buy > form {
+    margin-top: 30px;
+}
+
+.search-buy > form input {
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+    padding-right: 15px;
+}
+
+.search-buy > form button {
+    position: absolute;
+    left: 50px;
+    top: 37px;
+    border: none;
+}
+
+.search-buy > form input:hover,
+.search-buy > form button:hover {
+    cursor: pointer
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 3px 3px 10px gray;
+}
+
+nav ol {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+nav ol li {
+    padding: 8px;
+    margin: 8px;
+    position: relative;
+}
+
+.con-sub {
+    color: red;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    text-align: center;
+    white-space: nowrap;
+    display: none;
+    pointer-events: none;
+}
+
+.has-sub:hover .con-sub {
+    display: block;
+    pointer-events: auto;
+}
+
+.sub-menu:hover {
+    background-color: red;
+    color: lime;
+    padding: 8px;
+    cursor: pointer;
+}
+
+header + div {
+    display: flex;
+}
+
+header + div div {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.con-slider {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    text-align: center;
+}
+
+.con-slider-2 {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.con-slider-2 > div {
+    box-shadow: 1px 1px 5px grey, -1px 1px 5px grey, 1px -1px 5px grey, -1px -1px 5px grey;
+}
+
+.con-icon {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+
+}
+
+.con-icon li {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 60px;
+}
+
+.con-icon li:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    background-color: yellow;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+.banner div {
+    margin-top: 50px;
+}
+
+.banner div p a {
+    background-color: lime;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px gray, -1px 1px 5px gray, 1px -1px 5px gray, -1px -1px 5px gray;
+    border-radius: 10px;
+
+}
+
+.goldan-kooze {
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+}
+
+.goldan-kooze div {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.last-section {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.last-section > div {
+    border: 1px solid black;
+    margin: 20px;
+    width: 50%;
+}
+
+.last-news {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.last-news div img {}
+
+.archive-header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.archive-content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.test {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.con-div::before{
+    content: "";
+    background-image: url('./beforefooter.png');
+    position: absolute;
+    bottom: 100%;
+    height: 171px;
+    width: 100%;
+}
+footer{
+    background: purple;
+}
+.con-div{
+    margin-top: 200px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.con-div div{
+    width: 25%;
+    color: white;
+    margin: 10px;
+}
+
+.footer-icon{
+    direction: ltr;
+    margin-left: 20%;
+    margin-top: 30px;
+}
